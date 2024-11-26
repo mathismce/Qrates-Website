@@ -18,7 +18,10 @@ export default {
         black: "#000000",
       },
       fontFamily: {
-        noto: ['NotoSans', 'sans-serif'],
+        'noto-sans': ['Noto Sans'],
+        'noto-extra-bold': ['Noto Sans ExtraBold'],
+        'noto-bold': ['Noto Sans Bold'],
+
       },
     },
   },

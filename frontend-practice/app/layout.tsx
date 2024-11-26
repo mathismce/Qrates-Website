@@ -12,10 +12,15 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
-const notoSans = localFont({
-  src: "./fonts/Noto-Sans-regular.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+// const notoSans = localFont({
+//   src: "./fonts/Noto-Sans-regular.woff",
+//   variable: "--font-geist-mono",
+//   weight: "100 900",
+// });
+const notoBold = localFont({
+  src: "./fonts/NotoSans-ExtraBold.ttf",
+  variable: "--font-noto-bold",
+  weight: "900",
 });
 
 export const metadata: Metadata = {
@@ -31,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${notoSans.variable}  antialiased`}
+        
       >
         {children}
       </body>
