@@ -43,32 +43,44 @@ export default function Home() {
         </div>
       </nav>
       <div>
-      <div className="flex flex-col bg-black p-8 rounded-lg text-white lg:px-52 lg:py-24">
-        <div className="flex">
-          <div className="flex flex-col gap-4 w-1/2">
+      <div className="flex flex-col h-full bg-black p-8  text-white 2xl:px-52 2xl:py-24 py-24">
+        <div className="flex gap-6 z-10">
+          <div className="flex flex-col gap-6 w-[500px]">
             <h2 className="text-xs font-semibold text-center border w-32 p-2 border-2 tracking-widest uppercase">For Artists</h2>
             <h2 className="text-6xl font-bold mt-2 noto-bold">Music in your hands. Without the barriers.</h2>
             <p className="text-2xl mt-4 font-bold noto-bold">
                 Full-service pressing, a global retail network, customer support — and you keep up to 85% of profits. ↓
             </p>
           </div>
-            <Image
-              className="rotate-12 w-1/2"
+          <Image
+              className="rotate-12 w-[560px] border-3 border-white z-0"
               src="/home-vinyl-picture.avif"
               alt="Qrates vinyl"
-              width={800}
-              height={800}
+              width={600}
+              height={600}
               priority
             />
         </div>
-        <Image
-            className="-rotate-12 w-1/2"
+        <div className="flex">
+            <Image
+            className="-rotate-12 w-1/2 ml-32 mt-[-200px] w-[500px] border-3 border-white z-0"
             src="/vinyl-picture.avif"
             alt="Qrates vinyl"
             width={800}
             height={800}
             priority
-          />
+            />
+            <Image
+            className="-rotate-12 w-1/2 ml-32 mt-[-200px] w-[350px] border-3 border-white z-20"
+            src="/jeton.svg"
+            alt="Qrates vinyl"
+            width={800}
+            height={800}
+            priority
+            />
+        </div>
+        </div>
+        
       </div>
         <div>
         <div>
@@ -77,6 +89,5 @@ export default function Home() {
         </div>
     </div>
       </div>
-    </div>
   );
 }
