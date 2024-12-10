@@ -12,10 +12,11 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         yellow: "#FFF804",
-        gray: "#81836C",
+        green: "#81836C",
         purple: "#E280FF",
         white: "#FFFFFF",
         black: "#000000",
+        gray: "#E4E5DE"
       },
       fontFamily: {
         'noto-sans': ['Noto Sans'],

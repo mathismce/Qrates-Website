@@ -43,35 +43,35 @@ export default function Home() {
         </div>
       </nav>
       <div>
-      <div className="flex flex-col h-full bg-black p-8  text-white 2xl:px-52 2xl:py-24 py-24">
-        <div className="flex gap-6 z-10">
-          <div className="flex flex-col gap-6 w-[500px]">
-            <h2 className="text-xs font-semibold text-center border w-32 p-2 border-2 tracking-widest uppercase">For Artists</h2>
-            <h2 className="text-6xl font-bold mt-2 noto-bold">Music in your hands. Without the barriers.</h2>
-            <p className="text-2xl mt-4 font-bold noto-bold">
+      <div className="flex flex-col items-center justify-items-center h-full bg-black p-8 gap-4 text-white 2xl:px-52 2xl:py-24 py-24 pb-36">
+        <div className="flex gap-16 z-10 ">
+          <div className="flex flex-col gap-6 w-[580px] p-4">
+            <h2 className="text-sm font-semibold text-center border-[3px] w-[132px] p-2 border-4 tracking-widest uppercase">For Artists</h2>
+            <h2 className="text-7xl font-bold mt-2 noto-bold">Music in your hands. Without the barriers.</h2>
+            <p className="text-3xl mt-4 noto-bold">
                 Full-service pressing, a global retail network, customer support — and you keep up to 85% of profits. ↓
             </p>
           </div>
           <Image
-              className="rotate-12 w-[560px] border-3 border-white z-0"
+              className="rotate-12 w-[560px] mt-[20px] border-2 border-black z-0"
               src="/home-vinyl-picture.avif"
               alt="Qrates vinyl"
-              width={600}
-              height={600}
+              width={700}
+              height={700}
               priority
             />
         </div>
         <div className="flex">
             <Image
-            className="-rotate-12 w-1/2 ml-32 mt-[-200px] w-[500px] border-3 border-white z-0"
+            className="-rotate-12 w-1/2 ml-40 mt-[-200px] w-[500px] z-0"
             src="/vinyl-picture.avif"
             alt="Qrates vinyl"
-            width={800}
-            height={800}
+            width={900}
+            height={900}
             priority
             />
             <Image
-            className="-rotate-12 w-1/2 ml-32 mt-[-200px] w-[350px] border-3 border-white z-20"
+            className="-rotate-20 w-1/2 ml-32 mt-[-250px] w-[350px] z-20"
             src="/jeton.svg"
             alt="Qrates vinyl"
             width={800}
@@ -82,12 +82,21 @@ export default function Home() {
         </div>
         
       </div>
+      <div className="bg-gray" >
+        <h4 className="py-24 text-center text-5xl font-bold">Choose from two formats with promised quality</h4>
         <div>
-        <div>
-        
-          
+          <div>
+            <h5>Vinyl</h5>
+            <p>We know how special pressed records are to you. Our products are built for fans, by fans. We make it easy for artists to press vinyl, so the music you love can keep reaching ears in the most beautiful way.</p>
+          </div>
+          <div>
+            <h5>Cassette</h5>
+            <p>Cassettes have always been special to music fans and artists. Whether you are saving a recording of a great concert, or preserving an early demo, there’s no better way to keep that music close than on cassette tapes.</p>
+          </div>
         </div>
-    </div>
+      </div>
+      
+
       </div>
   );
 }
