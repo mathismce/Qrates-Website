@@ -7,7 +7,7 @@ export default function FormatsSection() {
         <h4 className="py-24 text-black text-center text-4xl font-bold">
           Choose from two formats with promised quality
         </h4>
-        <div className="flex flex-col sm:flex-row text-black">
+        <div className="flex flex-col md:flex-row text-black">
           <div className="flex flex-col items-center gap-8 border-t-2 border-b border-black p-16">
             <h5 className="text-4xl font-bold">Vinyl</h5>
             <p className="text-center text-lg px-8 pl-20">
