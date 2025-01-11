@@ -16,7 +16,8 @@ export default {
         purple: "#E280FF",
         white: "#FFFFFF",
         black: "#000000",
-        gray: "#E4E5DE"
+        gray: "#E4E5DE",
+        pink: "#F8D8D8"
       },
       fontFamily: {
         'noto-sans': ['Noto Sans'],
